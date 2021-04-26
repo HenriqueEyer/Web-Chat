@@ -1,0 +1,42 @@
+.TextNotification {
+  align-items: center;
+  animation: fadeIn 3s;
+  background: black;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  width: 20%;
+}
+
+.TextNotification .x-btn {
+  background: transparent;
+  font-size: 28px;
+  font-weight: 900;
+  color: white;
+  border: none;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}

@@ -1,0 +1,41 @@
+.InputMessage {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.InputMessage .ipt {
+  background: black;
+  position: static;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: white;
+  font-size: 23px;
+  margin: 10px 0 10px 30px;
+  outline: 0;
+  padding: 10px 50px 10px 20px;
+  text-align: left;
+  width: 80%;
+}
+
+.InputMessage::placeholder {
+  margin-left: 20px;
+}
+
+.InputMessage .btn-message {
+  background: rgb( 15 , 163 , 107 );
+  border: none;
+  border-radius: 100%;
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  margin-left: -45px;
+  text-decoration: none;
+  padding: 4px 10px;
+}
+
+.InputMessage .btn-message:hover {
+  background: white;
+  color: rgb( 15 , 163 , 107 );
+}

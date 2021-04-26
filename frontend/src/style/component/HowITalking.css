@@ -1,0 +1,20 @@
+.HowITalking {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.HowITalking .link {
+  background: rgb( 15 , 163 , 107 );
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.HowITalking .link:hover {
+  background:white ;
+  color:  rgb( 15 , 163 , 107 );
+}

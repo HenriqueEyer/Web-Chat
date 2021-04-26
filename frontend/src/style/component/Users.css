@@ -1,0 +1,28 @@
+.Users {
+  align-items: center;
+  background: black;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  margin: 20px;
+  width: 90%;
+}
+
+.Users .btn-link {
+  background: rgb( 15 , 163 , 107 );
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 9px;
+  text-decoration: none;
+}
+
+.Users .btn-link:hover {
+  background: white;
+  border-radius: 5px;
+  color: rgb( 15 , 163 , 107 );
+  font-size: 18px;
+  padding: 9px;
+  text-decoration: none;
+}

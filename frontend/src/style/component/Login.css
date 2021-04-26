@@ -1,0 +1,37 @@
+.Login {
+  align-items: center;
+  background: rgb( 7 , 9 , 12 );
+  border-right: 1px solid white;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  height: 90%;
+  padding: 50px;
+  width: 40%;
+}
+
+.Login .btn {
+  background: black;
+  border: 2.4px solid white;
+  color: white;
+  transition: all 0.3s;
+}
+
+.Login .ipt {
+  background: black;
+  border-radius: 20px;
+  border: 2.4px solid white;
+  color: white;
+  font-size: 23px;
+  margin: 10px;
+  padding: 10px 0;
+  text-align: center;
+  width: 60%;
+}
+
+.Login .btn:hover {
+  background: rgb( 15 , 163 , 107 );
+  border: 2.4px solid black;
+  color: white;
+}

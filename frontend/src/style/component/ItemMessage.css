@@ -1,0 +1,26 @@
+.ItemMessage {
+  border-radius: 10px;
+  padding: 5px 4px 2px 10px;
+  width: 60%;
+}
+
+.ItemMessage.user {
+  align-self: flex-end;
+  background: rgb( 15 , 163 , 107 );
+  color: black;
+  margin: 10px;
+  word-break: break-all;
+}
+
+.ItemMessage.otherUser {
+  align-self: flex-start;
+  background: white;
+  color: black;
+  margin: 10px;
+  word-break: break-all;
+}
+
+.ItemMessage .name {
+  font-size: 19px;
+  font-weight: 600;
+}
